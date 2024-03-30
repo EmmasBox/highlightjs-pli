@@ -1,0 +1,30 @@
+{
+  "name": "highlightjs-pli",
+  "version": "0.1.0",
+  "description": "CLIST syntax highlighting for highlight.js",
+  "main": "src/clist.js",
+  "types": "src/clist.d.ts",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmasBox/highlightjs-pli.git"
+  },
+  "keywords": [
+    "PLI",
+    "PL/I",
+    "PL/1",
+    "Programming Language One",
+    "hljs",
+    "highlightjs",
+    "highlight.js"
+  ],
+  "author": "Emma Skovgaard",
+  "license": "GPL-3.0 license",
+  "bugs": {
+    "url": "https://github.com/EmmasBox/highlightjs-pli/issues"
+  },
+  "devDependencies": {
+    "highlight.js": "^11.6.0"
+  }
+}
