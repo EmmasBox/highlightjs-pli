@@ -1,9 +1,9 @@
 {
   "name": "highlightjs-pli",
   "version": "0.1.0",
-  "description": "CLIST syntax highlighting for highlight.js",
-  "main": "src/clist.js",
-  "types": "src/clist.d.ts",
+  "description": "PL/I syntax highlighting for highlight.js",
+  "main": "src/pli.js",
+  "types": "src/pli.d.ts",
   "dependencies": {
   },
   "repository": {
