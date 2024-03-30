@@ -203,10 +203,6 @@ export default function (hljs) {
             {
                 scope: 'number',
                 begin: /\s([0-9]+(?:(\.)[0-9]+)*)/
-            },
-            {
-                scope: 'variable',
-                begin: /(&\w+)/
             }
         ]
     }
