@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-pli",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "PL/I syntax highlighting for highlight.js",
   "main": "src/pli.js",
   "types": "src/pli.d.ts",
