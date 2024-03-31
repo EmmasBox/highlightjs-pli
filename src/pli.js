@@ -178,7 +178,8 @@ export default function (hljs) {
                 "SQL",
                 "CICS",
                 "DLI",
-                "EXEC"
+                "EXEC",
+                "END"
             ],
             built_in: [
 
