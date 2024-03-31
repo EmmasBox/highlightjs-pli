@@ -9,6 +9,7 @@ export default function (hljs) {
         case_insensitive: false,
         keywords: {
             keyword: [
+                "ADDR",
                 "ALIGNED",
                 "ALLOCATE",
                 "ALLOC",
@@ -25,6 +26,7 @@ export default function (hljs) {
                 "CALL",
                 "CHARGRAPHIC",
                 "CHARG",
+                "CHAR",
                 "CLOSE",
                 "COBOL",
                 "COMPLEX",
@@ -124,6 +126,7 @@ export default function (hljs) {
                 "PRECISION",
                 "PRIORITY",
                 "PROCEDURE",
+                "PROC",
                 "PUT",
                 "RANGE",
                 "READ",
