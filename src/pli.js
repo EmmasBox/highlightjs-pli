@@ -187,6 +187,14 @@ export default function (hljs) {
 
             ],
             meta: [
+                "%INCLUDE",
+                "%XINCLUDE",
+                "%PRINT",
+                "%NOPRINT",
+                "%PAGE",
+                "%POP",
+                "%PUSH",
+                "%SKIP"
 
             ]
         },
@@ -201,11 +209,15 @@ export default function (hljs) {
             },
             {
                 scope: 'operator',
-                begin: /(\+| - |\/==|\/=|\*\*|\*|\/\/|\/|<>|\**\|\*\|>=|<=|¬<|¬>|>|<|==|¬==|=|¬=|¬|&&|&|%)/
+                begin: /(\+| - |\/==|\/=|\*\*|\*|\/\/|\/|<>|\**\|\*\|>=|<=|¬<|¬>|>|<|==|¬==|=|¬=|¬|&&| & | % )/
             },
             {
                 scope: 'number',
                 begin: /\s([0-9]+(?:(\.)[0-9]+)*)/
+            },
+            {
+                scope: 'meta',
+                begin: /(%\w+)/
             }
         ]
     }
