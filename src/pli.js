@@ -214,7 +214,7 @@ export default function (hljs) {
             },
             {
                 scope: 'number',
-                begin: /\d([0-9]+(?:(\.)[0-9]+)*)/
+                begin: /\b(\d+)\b/
             },
             {
                 scope: 'meta',
